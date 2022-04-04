@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/bart5883/public_html/git
+- /bin/cp -R * $DEPLOYPATH
